@@ -16,7 +16,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 <h2 align="center">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ </h2>
 
-<h4>ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <a href="https://t.me/groupcontrollertgbot">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ</a>
+<h4>ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <a href="https://t.me/StrangerSuperbot">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ</a>
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...</h4>
 ━━━━━━━━━━━━━━━━━━━━━━
 <h2 align="center"> 
@@ -120,14 +120,14 @@ async def some_function(_, message):
 <a href="https://telegram.me/the_support_chat"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://telegram.me/mukeshbotzone"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=telegram"></a>
+<a href="https://telegram.me/mastiwithfriendsx"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=telegram"></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
- [ ᴍᴜᴋᴇsʜ ](https://t.me/legend_coder)
+ [ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ](https://t.me/ITSZ_SHIVANSH)
 
- [ᴀɴᴏɴʏᴍᴏᴜs](https://telegram.me/anonymous_was_bot)  
+ [𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇](https://telegram.me/SHIVANSH39)  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/itzshukla/STRANGER-ROBOT/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ  ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ ❤️ </b>
 
 ━━━━━━━━━━━━━━━━━━━━
