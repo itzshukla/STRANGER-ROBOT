@@ -5,7 +5,7 @@
   <img src="https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg">
 </p>
   ━━━━━━━━━━━━━━━━━
-src="https://github.com/itzshukla/STRANGER-ROBOT/blob/main/STRANGER-ROBOT/resources/mukesh.jpg">
+
 </p>
 <p align="center">
 <a href="https://github.com/itzshukla/STRANGER-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/itzshukla/STRANGER-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
