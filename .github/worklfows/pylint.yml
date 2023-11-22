@@ -30,6 +30,6 @@ jobs:
           commit_message: 'Auto Fixes' 
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: Noob-Mukesh
-          commit_user_email: mukhushiofficial@gmail.com
-          commit_author: Noob-Mukesh <mukhushiofficial@gmail.com>
+          commit_user_name: itzshukla
+          commit_user_email: shashankshukla6904@gmail.com
+          commit_author: itzshukla <shashankshukla6904@gmail.com>
