@@ -82,7 +82,7 @@ async def unshort(bot, message):
 # mukesh.add_handler(MessageHandler(unshort))
 __help__ = """
 ᴍᴀᴋᴇ sʜᴏʀᴛs ᴏғ ᴀ ɢɪᴠᴇɴ ʟɪɴᴋ 
- ❍ /short <url>  *:Example `/short https://t.me/mr_sukkun`.
+ ❍ /short <url>  *:Example `/short https://t.me/ITSZ_SHIVANSH`.
  *"""
 
 __mod_name__ = "Sʜᴏʀᴛᴇɴᴇʀ"
