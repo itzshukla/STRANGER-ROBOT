@@ -1,14 +1,14 @@
 {
-    "name": "Mukesh Robot",
+    "name": "Stranger Robot",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://te.legra.ph/file/49c43e6fc856534a09853.jpg",
+    "logo": "https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg",
     "keywords": [
        "telegram",
        "modular",
        "group",
        "manager"
     ],   
- "repository": "https://github.com/Noob-Mukesh/MukeshRobot",
+ "repository": "https://github.com/itzshukla/STRANGER-ROBOT",
  "stack": "heroku-22",
  "addons": [
     {
@@ -50,7 +50,7 @@
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
        "required": true,
-       "value": ""
+       "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
     },
     "CASH_API_KEY": {
         " description": " Get your API key from https://www.alphavantage.co/support/#api-key",
