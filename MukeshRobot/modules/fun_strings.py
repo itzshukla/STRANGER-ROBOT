@@ -139,7 +139,7 @@ SLAP_TEMPLATES = (
     "{user2} lost his race piece!",  # No game no life reference
     "Shut up {user2}, you are just {user2}.",  # No game no life reference
     "{user1} hits {user2} with Aka si anse!",  # No game no life reference
-    "@NeoTheKitty scratches {user2}",  # Pixels pet cat - @NeoTheKitty
+    "@ITSZ_SHIVANSH scratches {user2}",  # Pixels pet cat - @ITSZ_SHIVANSH
     "Majin buu ate {user2}",  # Dbz
     "Goblin slayer slays {user2}",  # Goblin Slayer
 )
