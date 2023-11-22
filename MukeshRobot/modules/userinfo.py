@@ -259,7 +259,7 @@ def info(update: Update, context: CallbackContext):
                 text += _stext.format("ᴅᴇᴛᴇᴄᴛᴇᴅ")
             elif status in {"administrator", "creator"}:
                 text += _stext.format("ᴀᴅᴍɪɴ")
-    if user_id not in [bot.id, 777000, 1087968824]:
+    if user_id not in [bot.id, 777000, 6919199044]:
         userhp = hpmanager(user)
         text += f"\n\n<b>ʜᴇᴀʟᴛʜ:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
 
@@ -285,7 +285,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/mukeshbotzone/26">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n[<a href="https://t.me/mastiwithfriendsx">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -323,10 +323,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/mukeshbotzone/90"
+                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/ABOUT_SHIVANSHOP"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/mukeshbotzone/26"
+                                "Dɪsᴀsᴛᴇʀ", url="mastiwithfriendsx"
                             ),
                         ],
                         [
@@ -349,10 +349,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/mukeshbotzone/90"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/ABOUT_SHIVANSHOP"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/mukeshbotzone/26"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/mastiwithfriendsx"
                             ),
                         ],
                         [
@@ -405,21 +405,21 @@ def about_me(update: Update, context: CallbackContext):
 def set_about_me(update: Update, context: CallbackContext):
     message = update.effective_message
     user_id = message.from_user.id
-    if user_id in [777000, 1087968824]:
+    if user_id in [777000, 6919199044]:
         message.reply_text("ᴇʀʀᴏʀ ᴜɴᴀᴜᴛʜᴏʀɪsᴇᴅ")
         return
     bot = context.bot
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 777000, 1087968824] and (user_id in DEV_USERS):
+        if repl_user_id in [bot.id, 777000, 6919199044] and (user_id in DEV_USERS):
             user_id = repl_user_id
     text = message.text
     info = text.split(None, 1)
     if len(info) == 2:
         if len(info[1]) < MAX_MESSAGE_LENGTH // 4:
             sql.set_user_me_info(user_id, info[1])
-            if user_id in [777000, 1087968824]:
+            if user_id in [777000, 6919199044]:
                 message.reply_text("ᴀᴜᴛʜᴏʀɪsᴇᴅ  .. ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴜᴘᴅᴀᴛᴇᴅ!")
             elif user_id == bot.id:
                 message.reply_text("ɪ ʜᴀᴠᴇ ᴜᴘᴅᴀᴛᴇᴅ ᴍʏ ɪɴғᴏ ᴡɪᴛʜ ᴏɴᴇ ʏᴏᴜ ᴘʀᴏᴠɪᴅᴇᴅ!")
@@ -485,13 +485,13 @@ def set_about_bio(update: Update, context: CallbackContext):
             )
             return
 
-        if user_id in [777000, 1087968824] and sender_id not in DEV_USERS:
+        if user_id in [777000, 6919199044] and sender_id not in DEV_USERS:
             message.reply_text("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪsᴇᴅ")
             return
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "ᴜᴍᴍ... ʏᴇᴀʜ, ɪ ᴏɴʟʏ ᴛʀᴜsᴛ ᴍᴜᴋᴇsʜ ᴀssᴏᴄɪᴀᴛɪᴏᴍ ᴛᴏ sᴇᴛ ᴍʏ ʙɪᴏ."
+                "ᴜᴍᴍ... ʏᴇᴀʜ, ɪ ᴏɴʟʏ ᴛʀᴜsᴛ SHIVANSH ᴀssᴏᴄɪᴀᴛɪᴏᴍ ᴛᴏ sᴇᴛ ᴍʏ ʙɪᴏ."
             )
             return
 
