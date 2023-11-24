@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://te.legra.ph/file/ebc3fc421b8776e29ad98.mp4",
+                        url="https://t.me/ABOUT_SHIVANSHOP",
                     ),
                 ]
             ]
