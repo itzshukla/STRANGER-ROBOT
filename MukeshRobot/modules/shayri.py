@@ -50,7 +50,7 @@ async def love_shayri(b,m):
     await m.reply_text(love)
 __mod_name__="​​Sʜᴀʏʀɪ"
 __help__="""ꜱᴇɴᴅ ʀᴀɴᴅᴏᴍ ꜱʜᴀʏʀɪ
-❍ /loveshayri : ʟᴏᴠᴇ ꜱʜᴀʏʀɪ
+❍ /loveshayri : ʟᴏᴠᴇ ꜱʜᴀʏʀɪ"""
 ❍ /sspam <number> - Get random Shayari.
 ❍ /joke <number> - Get random jokes.
 ❍ /gana <song_name> - Get lyrics for a specific song.
