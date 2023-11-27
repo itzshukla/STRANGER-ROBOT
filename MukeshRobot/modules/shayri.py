@@ -55,4 +55,4 @@ __help__="""ꜱᴇɴᴅ ʀᴀɴᴅᴏᴍ ꜱʜᴀʏʀɪ
 ❍ /joke <number> - Get random jokes.
 ❍ /songs <song_name> - Get lyrics for a specific song.
 ❍ /mspam <number> - Spam love Shayari or proposal type Shayari.
-❍ /dialogue <number> - Get random dialogue
+❍ /dialogue <number> - Get random dialogue"""
