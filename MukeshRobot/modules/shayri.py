@@ -1,9 +1,9 @@
 """MIT License
 
-Copyright (c) 2023-24 itzshukla
+Copyright (c) 2023-24 Noob-Mukesh
 
-          GITHUB: itzshukla
-          TELEGRAM: @ITSZ_SHIVANSH
+          GITHUB: NOOB-MUKESH
+          TELEGRAM: @MR_SUKKUN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -41,12 +41,13 @@ loveShayri = [
     "Main waqt ban jaaun tu ban jaana koi \nlamha, \nMain tujhnme gujar jaaun tu mujhme gujar \njana............✍ \n\n~ ♡ 💘",
     "Udaas lamhon 😞 ki na koi yaad\nrakhna, \ntoofan mein bhi wajood apna sambhal\nRakhna,\nkisi ki zindagi ki khushi ho tum,\n🥰  bs yehi soch tum apna khayal\nRkhna,\n\n~ ♡ 💘❤️",
 ]
-love = random.choice(loveShayri)
+
 
 @pbot.on_message(filters.command("loveshayri"))
 
 async def love_shayri(b,m):
     "dont remove this line \n credit  |n github : noob-mukesh"
+    love = random.choice(loveShayri)      
     await m.reply_text(love)
 __mod_name__="​​Sʜᴀʏʀɪ"
 __help__="""ꜱᴇɴᴅ ʀᴀɴᴅᴏᴍ ꜱʜᴀʏʀɪ

@@ -49,17 +49,17 @@ async def paste_func(_, message):
             content = await f.read()
         os.remove(doc)
     link = await paste(content)
-    preview = link + "/preview.png"
+    preview = link 
     button = InlineKeyboard(row_width=1)
     button.add(InlineKeyboardButton(text="• ᴘᴀsᴛᴇ ʟɪɴᴋ •", url=link))
 
-    if await isPreviewUp(preview):
-        try:
-            await message.reply_photo(photo=preview, quote=False, reply_markup=button)
-            return await m.delete()
-        except Exception:
-            pass
-    return await m.edit(link)
+    await m.delete()
+    try:
+        await message.reply("ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴘᴀsᴛᴇ ʟɪɴᴋ :", quote=False, reply_markup=button)
+        
+    except Exception:
+        pass
+    
 
 
 __mod_name__ = "Pᴀs​ᴛᴇ"
